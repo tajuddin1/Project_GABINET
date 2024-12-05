@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url(./fonts.css);
+
+:root {
+    --color-primary: #203b78;
+    --color-light: #FCE9E3;
+}
+
+body {
+    font-family: "Ubuntu Sans", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lust Text';
+    line-height: 1;
+}
+
+.text-light {
+    color: var(--color-light) !important;
+}
+
+.bg-light {
+    background-color: var(--color-light) !important;
+}
+.border-light {
+    border-color: var(--color-light) !important;
+}
+
+.btn-outline-light {
+    border-color: var(--color-light) !important;
+    color: var(--color-light);
+    transition: 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--color-light) !important;
+    color: var(--color-primary);
+}
+
+.btn-outline-primary {
+    border-color: var(--color-primary) !important;
+    color: var(--color-primary);
+    transition: 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--color-primary) !important;
+    color: var(--color-light);
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.border-primary {
+    border-color: var(--color-primary) !important;
+}
+
+.header-contact {
+    background-color: var(--color-primary);
+}
+
+.nav-link.text-primary {
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.nav-link.text-primary:hover, .nav-link.text-primary.active {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.hero-content {
+    min-height: 85vh;
+    background-image: linear-gradient(#f3e6e078, #f3e6e077), url(../images/banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-primary);
+}
+.hero-content.colored {
+    background-image: url(../images/banner-colored.jpg);
+    background-position: top left;
+}
+
+.hero-content-middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+p.title {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.hero-svg {
+    width: 80px;
+}
+
+.hero-svg svg path {
+    fill: var(--color-primary);
+}
+
+.hero-content-bottom {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%, -30px);
+}
+
+.title-2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.heading-2 {
+    font-size: 56px;
+}
+
+.btn-toggler {
+    max-width: 56px;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.card-title {
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--color-primary);
+}
+
+.blue-bg-left-rounded {
+    background-color: var(--color-primary);
+    border-top-left-radius: 200px;
+}
+
+.calender-svg {
+    max-width: 310px;
+    margin: auto;
+}
+
+.cta-title {
+    font-family: 'Lust Text';
+    font-size: 40px;
+}
+
+.white-bg-right-rounded {
+    background-color: #fff;
+    border-top-right-radius: 200px;
+}
+.bg-svg-light.page-2 svg path {
+    fill: #f7ddd5;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 1px dashed var(--color-primary);
+    z-index: 1;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--color-light);
+    right: -20%;
+    bottom: -20%;
+    mix-blend-mode: darken;
+}
+.circle.dark::before {
+    background-color: #f7ddd5;
+}
+.description {
+    font-size: 17px;
+}
+
+.bg-svg-light svg path {
+    fill: var(--color-light);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-svg-light {
+    transform: scaleX(-1);
+    z-index: 0;
+}
+
+.bg-attached {
+    background-image: url(../images/1733233248419.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+}
+
+footer .hero-svg svg path {
+    fill: #fff;
+}
+
+footer p.title {
+    font-size: 26px;
+    line-height: 1;
+}
+
+footer .hero-svg {
+    width: 70px;
+}
+
+.footer-contact svg {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+footer span {
+    font-size: 14px;
+}
+
+
+.hero-content.hero-content-sm {
+    min-height: 35vh;
+}
+
+.heading-1 {
+    font-family: 'Lust Text';
+    font-size: 62px;
+    line-height: .9;
+}
+
+.sub-title {
+    font-family: 'Lust Text';
+    font-size: 32px;
+}
+
+.svg-icon {
+    max-width: 20px;
+}
+
+.nav-tabs .nav-link {
+    color: #000;
+    position: relative;
+    font-weight: 200;
+    text-align: start;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    top: 6px;
+    border-radius: 50%;
+}
+.nav-tabs .nav-link.active::before {
+    background-color: var(--color-light);
+}
+
+.heading-3 {
+    font-size: 48px;
+}
+
+.tab-banner{
+    max-height: 200px;
+}
+
+.icon-wrapper {
+    max-width: 60px;
+    height: 60px;
+    padding: 10px;
+    position: relative;
+    margin-top: -56px;
+    background: #fff;
+}
+
+.background-2{
+    height: 40vh;
+    background-image: url(../images/1733105123369.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .card-title {
+        font-size: 20px;
+    }
+    .calender-svg {
+        max-width: 250px;
+    }
+    .bg-svg-light {
+        padding: 10% 0 !important;
+    }
+    p.title {
+        font-size: 28px;
+    }
+    .hero-svg {
+        width: 70px;
+    }
+    footer p.title {
+        font-size: 24px;
+    }
+    footer .hero-svg {
+        width: 60px;
+    }
+    .title-2 {
+        font-size: 28px;
+    }
+    .heading-2 {
+        font-size: 52px;
+    }
+    .heading-1 {
+        font-size: 48px;
+    }
+    .sub-title {
+        font-size: 26px;
+    }
+    .hero-content.colored {
+        background-position: -110px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .card-title {
+        font-size: 14px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .cta-title {
+        font-size: 32px;
+    }
+    .heading-2 {
+        font-size: 46px;
+    }
+    .blue-bg-left-rounded {
+        border-top-left-radius: 150px;
+    }
+    .white-bg-right-rounded {
+        border-top-right-radius: 150px;
+    }
+    p.title {
+        font-size: 20px;
+    }
+    p.text-light.fs-5 {
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-content {
+        min-height: 70vh;
+    }
+    p.title {
+        font-size: 18px;
+    }
+    .hero-svg {
+        width: 40px;
+    }
+    .heading-2 {
+        font-size: 36px;
+    }
+    .title-2 {
+        font-size: 24px;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .blue-bg-left-rounded {
+        border-top-left-radius: 120px;
+    }
+    .white-bg-right-rounded {
+        border-top-right-radius: 120px;
+    }
+    .bg-svg-light {
+        max-width: 70%;
+    }
+    .header-contact {
+        font-size: 12px;
+        height: 40px;
+        display: inline-flex !important;
+        align-items: center;
+    }
+    .hero-content-middle {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-contact img {
+        width: 12px !important;;
+    }
+    .description {
+        font-size: 16px;
+    }
+    .cta-title {
+        font-size: 26px;
+    }
+    .calender-svg {
+        max-width: 200px;
+    }
+    .btn-toggler {
+        max-width: 45px;
+    }
+    .heading-1 {
+        font-size: 40px;
+    }
+    ul.footer-contact {
+        gap: 20px !important;
+        font-size: 14px;
+    }
+    footer p.title {
+        font-size: 16px;
+    }
+    footer .hero-svg {
+        width: 40px;
+    }
+    .footer-last{
+        font-size: 12px;
+    }
+    .sub-title {
+        font-size: 22px;
+    }
+    .heading-3 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .hero-content.colored {
+        background-position: -200px;
+    }
+    .blue-bg-left-rounded {
+        border-top-left-radius: 100px;
+    }
+    .white-bg-right-rounded {
+        border-top-right-radius: 100px;
+    }
+    p.title {
+        font-size: 18px;
+    }
+    .hero-content-bottom {
+        padding: 0 10px;
+    }
+    .description {
+        font-size: 14px;
+    }
+    .btn-outline-primary {
+        font-size: 14px;
+    }
+    .heading-2 {
+        font-size: 26px;
+    }
+    .title-2 {
+        font-size: 18px;
+    }
+    .heading-1 {
+        font-size: 28px;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
+    .heading-3 {
+        font-size: 28px;
+    }
+}

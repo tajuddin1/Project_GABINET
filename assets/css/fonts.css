@@ -1,0 +1,143 @@
+/* Lust Regular */
+@font-face {
+    font-family: 'Lust Text';
+    src: url('./fonts/fonnts.com-Lust-.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Lust Italic */
+@font-face {
+    font-family: 'Lust Text';
+    src: url('./fonts/fonnts.com-Lust-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Lust Didone */
+@font-face {
+    font-family: 'Lust Didone';
+    src: url('./fonts/fonnts.com-Lust-Didone-.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Lust Didone Display */
+@font-face {
+    font-family: 'Lust Didone';
+    src: url('./fonts/fonnts.com-Lust-Didone-Display-.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Lust Didone Display Italic */
+@font-face {
+    font-family: 'Lust Didone';
+    src: url('./fonts/fonnts.com-Lust-Didone-Display-Italic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Lust Didone Fine */
+@font-face {
+    font-family: 'Lust Didone Fine';
+    src: url('./fonts/fonnts.com-Lust-Didone-Fine-.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Lust Didone Fine Italic */
+@font-face {
+    font-family: 'Lust Didone Fine';
+    src: url('./fonts/fonnts.com-Lust-Didone-Italic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Lust Fine */
+@font-face {
+    font-family: 'Lust Fine';
+    src: url('./fonts/fonnts.com-Lust-Fine-.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Lust Fine Italic */
+@font-face {
+    font-family: 'Lust Fine';
+    src: url('./fonts/fonnts.com-Lust-Fine-Italic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Lust Stencil */
+@font-face {
+    font-family: 'Lust Stencil';
+    src: url('./fonts/fonnts.com-Lust-Stencil-.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Lust Stencil Display */
+@font-face {
+    font-family: 'Lust Stencil Display';
+    src: url('./fonts/fonnts.com-Lust-Stencil-Display-.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Lust Stencil Display Italic */
+@font-face {
+    font-family: 'Lust Stencil Display';
+    src: url('./fonts/fonnts.com-Lust-Stencil-Display-Italic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Lust Stencil Fine */
+@font-face {
+    font-family: 'Lust Stencil Fine';
+    src: url('./fonts/fonnts.com-Lust-Stencil-Fine-.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Lust Stencil Fine Italic */
+@font-face {
+    font-family: 'Lust Stencil Fine';
+    src: url('./fonts/fonnts.com-Lust-Stencil-Fine-Italic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Lust Text Book */
+@font-face {
+    font-family: 'Lust Text';
+    src: url('./fonts/fonnts.com-Lust-Text-Book-.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Lust Text Italic */
+@font-face {
+    font-family: 'Lust Text';
+    src: url('./fonts/fonnts.com-Lust-Text-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Lust Text Light */
+@font-face {
+    font-family: 'Lust Text';
+    src: url('./fonts/fonnts.com-Lust-Text-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Lust Text Medium */
+@font-face {
+    font-family: 'Lust Text';
+    src: url('./fonts/fonnts.com-Lust-Text-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}

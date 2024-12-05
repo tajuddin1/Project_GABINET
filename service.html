@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ustugi</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="position-absolute top-0 start-0 w-100 z-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 col-md-6">
+                    <div class="header-contact d-inline-block p-2 p-md-3">
+                        <a href="#" class="nav-link text-light fw-semibold"> <img width="20" src="assets/images/tel.svg" alt=""> +48 601 260 320</a>
+                    </div>
+                </div>
+                <div class="col-3 col-md-6 d-flex justify-content-end">
+                    <button class="btn-toggler btn btn-transparent p-0 border-0 rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" viewBox="0 0 77.52 77.52">
+                            <polygon fill="#F3D2C8" points="0,0 77.52,0 77.52,77.52 0,77.52 "/>
+                            <path fill="#1A2A55" d="M17.1 51.31c0,-1.28 1.04,-2.27 2.27,-2.27l38.74 0c1.27,0 2.26,1.03 2.26,2.27l0 0c0,1.27 -1.03,2.26 -2.26,2.26l-38.74 0c-1.27,0 -2.27,-1.03 -2.27,-2.26l0 0z"/>
+                            <path fill="#1A2A55" d="M17.1 37.62c0,-1.27 1.04,-2.26 2.27,-2.26l38.74 0c1.27,0 2.26,1.03 2.26,2.26l0 0c0,1.28 -1.03,2.27 -2.26,2.27l-38.74 0c-1.27,0 -2.27,-1.03 -2.27,-2.27l0 0z"/>
+                            <path fill="#1A2A55" d="M17.1 23.94c0,-1.27 1.04,-2.26 2.27,-2.26l38.74 0c1.27,0 2.26,1.03 2.26,2.26l0 0c0,1.28 -1.03,2.27 -2.26,2.27l-38.74 0c-1.27,0 -2.27,-1.03 -2.27,-2.27l0 0z"/>
+                        </svg>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body px-4">
+                            <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+                                <li><a href="index.html" class="fs-5 nav-link text-primary">Dom</a></li>
+                                <li><a href="about.html" class="fs-5 nav-link text-primary">O nas</a></li>
+                                <li><a href="service.html" class="fs-5 nav-link text-primary active">Ustugi</a></li>
+                                <li><a href="knowladge.html" class="fs-5 nav-link text-primary">Baza wiedzy</a></li>
+                                <li><a href="contact.html" class="fs-5 nav-link text-primary">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-content hero-content-sm d-flex position-relative">
+        <div class="container d-flex justify-content-center flex-shrink-1">
+            <div class="hero-content-middle">
+                <div class="d-flex gap-1 align-items-center">
+                    <div class="hero-svg">
+                        <svg class="w-100" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" version="1.1" viewBox="0 0 18.1 21.24">
+                            <path d="M8.83 11.21c3.68,-0.5 7.69,-1.03 9.13,2.26 -1.84,-5.17 -5.06,-6.65 -9.81,-5.79 -4.05,0.73 -6.94,2.42 -8.15,-0.97 1.86,5.24 5.42,4.97 8.83,4.5z"/>
+                            <path d="M11.08 16.66c2.15,-2.02 4.62,-4.42 6.98,-2.76 -3.57,-2.51 -6.36,-1.95 -9.04,0.78 -2.29,2.33 -3.1,4.96 -5.96,2.94 3.61,2.54 6.02,0.9 8.02,-0.96z"/>
+                            <path d="M12 6.64c2.78,0.97 6.06,2.02 5.7,4.88 0.55,-4.32 -1.25,-6.53 -4.92,-7.63 -3.13,-0.93 -5.83,-0.41 -5.38,-3.89 -0.56,4.38 2.01,5.75 4.6,6.64z"/>
+                            <path d="M14.66 18.01c0.7,-1.84 1.47,-4.01 3.38,-3.71 -2.88,-0.45 -4.39,0.7 -5.2,3.13 -0.68,2.08 -0.39,3.89 -2.71,3.53 2.92,0.46 3.89,-1.24 4.53,-2.95z"/>
+                            <path d="M17.27 18.15c-0.15,-1.29 -0.37,-2.78 0.83,-3.19 -1.81,0.62 -2.34,1.75 -2.06,3.41 0.23,1.41 0.95,2.38 -0.5,2.87 1.83,-0.62 1.88,-1.9 1.73,-3.09z"/>
+                            <path d="M14.88 3.59c1.2,0.48 2.61,1.01 2.38,2.26 0.34,-1.88 -0.39,-2.89 -1.98,-3.45 -1.35,-0.48 -2.54,-0.31 -2.27,-1.83 -0.35,1.91 0.75,2.57 1.87,3.02z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="title mb-0">GABINET</p>
+                        <p class="title fw-bold mb-0">GINEKOLOGICZNO</p>
+                        <p class="title fw-bold mb-0">MENDOKRYNOLOGICZNY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 d-flex align-items-end">
+                <div class="w-100 d-flex align-items-center justify-content-center px-5 py-2 bg-primary rounded-top-4">
+                    <p class="mb-0 text-light fs-5">Ustugi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-xl-4 mb-4 md-md-0 d-flex">
+                    <div class="card flex-grow-1 p-4 border-primary rounded-4 d-flex gap-2 gap-md-5 flex-column justify-content-between">
+                        <div class="top-content">
+                            <p class="cta-title fw-light text-primary lh-1">zakres porad</p>
+                            <ul class="nav nav-tabs flex-column border-0 gap-2" id="myTab" role="tablist">
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0 active" id="tab-1" data-bs-toggle="tab" data-bs-target="#tab-1-pane" type="button" role="tab" aria-controls="tab-1-pane" aria-selected="true">konsultacje ginekologiczne</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-2" data-bs-toggle="tab" data-bs-target="#tab-2-pane" type="button" role="tab" aria-controls="tab-2-pane" aria-selected="false">prowadzenie ciazy</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-3" data-bs-toggle="tab" data-bs-target="#tab-3-pane" type="button" role="tab" aria-controls="tab-3-pane" aria-selected="false">leczenie nieptodnosci</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-4" data-bs-toggle="tab" data-bs-target="#tab-4-pane" type="button" role="tab" aria-controls="tab-4-pane" aria-selected="false">PCO zespót policystycznych jajników</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-5" data-bs-toggle="tab" data-bs-target="#tab-5-pane" type="button" role="tab" aria-controls="tab-5-pane" aria-selected="false">zaburzenia miesiaczkowania</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-6" data-bs-toggle="tab" data-bs-target="#tab-6-pane" type="button" role="tab" aria-controls="tab-6-pane" aria-selected="false">antykoncepcja</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-7" data-bs-toggle="tab" data-bs-target="#tab-7-pane" type="button" role="tab" aria-controls="tab-7-pane" aria-selected="false">HTZ w okresie menopauzy</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-8" data-bs-toggle="tab" data-bs-target="#tab-8-pane" type="button" role="tab" aria-controls="tab-8-pane" aria-selected="false">endokrynologia ginekologiczna</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-9" data-bs-toggle="tab" data-bs-target="#tab-9-pane" type="button" role="tab" aria-controls="tab-9-pane" aria-selected="false">USG ginekologiczne</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-10" data-bs-toggle="tab" data-bs-target="#tab-10-pane" type="button" role="tab" aria-controls="tab-10-pane" aria-selected="false">leczenie nadzerki</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-11" data-bs-toggle="tab" data-bs-target="#tab-11-pane" type="button" role="tab" aria-controls="tab-11-pane" aria-selected="false">nadmierne owtosienie</button>
+                                </li>
+                                <li class="d-flex" role="presentation">
+                                    <button class="nav-link d-flex p-0 ps-3 border-0" id="tab-12" data-bs-toggle="tab" data-bs-target="#tab-12-pane" type="button" role="tab" aria-controls="tab-12-pane" aria-selected="false">infekcje drog rodnych</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content text-end">
+                            <div class="bottom-svg text-light">
+                                <svg class="w-25" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" version="1.1" viewBox="0 0 18.1 21.24" fill="currentColor">
+                                    <path d="M8.83 11.21c3.68,-0.5 7.69,-1.03 9.13,2.26 -1.84,-5.17 -5.06,-6.65 -9.81,-5.79 -4.05,0.73 -6.94,2.42 -8.15,-0.97 1.86,5.24 5.42,4.97 8.83,4.5z"/>
+                                    <path d="M11.08 16.66c2.15,-2.02 4.62,-4.42 6.98,-2.76 -3.57,-2.51 -6.36,-1.95 -9.04,0.78 -2.29,2.33 -3.1,4.96 -5.96,2.94 3.61,2.54 6.02,0.9 8.02,-0.96z"/>
+                                    <path d="M12 6.64c2.78,0.97 6.06,2.02 5.7,4.88 0.55,-4.32 -1.25,-6.53 -4.92,-7.63 -3.13,-0.93 -5.83,-0.41 -5.38,-3.89 -0.56,4.38 2.01,5.75 4.6,6.64z"/>
+                                    <path d="M14.66 18.01c0.7,-1.84 1.47,-4.01 3.38,-3.71 -2.88,-0.45 -4.39,0.7 -5.2,3.13 -0.68,2.08 -0.39,3.89 -2.71,3.53 2.92,0.46 3.89,-1.24 4.53,-2.95z"/>
+                                    <path d="M17.27 18.15c-0.15,-1.29 -0.37,-2.78 0.83,-3.19 -1.81,0.62 -2.34,1.75 -2.06,3.41 0.23,1.41 0.95,2.38 -0.5,2.87 1.83,-0.62 1.88,-1.9 1.73,-3.09z"/>
+                                    <path d="M14.88 3.59c1.2,0.48 2.61,1.01 2.38,2.26 0.34,-1.88 -0.39,-2.89 -1.98,-3.45 -1.35,-0.48 -2.54,-0.31 -2.27,-1.83 -0.35,1.91 0.75,2.57 1.87,3.02z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-xl-8">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="tab-1-pane" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+                            <div class="d-flex flex-column">
+                                <h3 class="heading-3 fw-light text-primary mb-4">Prowadzenie ciazy</h3>
+                                <img class="tab-banner img-thumbnail object-fit-cover p-0 rounded-5 border-2 border-light mb-4" src="assets/images/lady-on-bed.jpg" alt="">
+                                <p class="description fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendis-se ultrices gravida. Risus commodo viverra maecenas. orem ipsum dolor sit amet, con-sectetur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p class="description text-primary mb-0 mb-md-5">Risus commodo viverra maecenas. Lorem ipsum dolor sit amet, consectetur adip-iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-2-pane" role="tabpanel" aria-labelledby="tab-2" tabindex="0">add tab content 2</div>
+                        <div class="tab-pane fade" id="tab-3-pane" role="tabpanel" aria-labelledby="tab-3" tabindex="0">add tab content 3</div>
+                        <div class="tab-pane fade" id="tab-4-pane" role="tabpanel" aria-labelledby="tab-4" tabindex="0">add tab content 4</div>
+                        <div class="tab-pane fade" id="tab-5-pane" role="tabpanel" aria-labelledby="tab-5" tabindex="0">add tab content 5</div>
+                        <div class="tab-pane fade" id="tab-6-pane" role="tabpanel" aria-labelledby="tab-6" tabindex="0">add tab content 6</div>
+                        <div class="tab-pane fade" id="tab-7-pane" role="tabpanel" aria-labelledby="tab-7" tabindex="0">add tab content 7</div>
+                        <div class="tab-pane fade" id="tab-8-pane" role="tabpanel" aria-labelledby="tab-8" tabindex="0">add tab content 8</div>
+                        <div class="tab-pane fade" id="tab-9-pane" role="tabpanel" aria-labelledby="tab-9" tabindex="0">add tab content 9</div>
+                        <div class="tab-pane fade" id="tab-10-pane" role="tabpanel" aria-labelledby="tab-10" tabindex="0">add tab content 10</div>
+                        <div class="tab-pane fade" id="tab-11-pane" role="tabpanel" aria-labelledby="tab-411 tabindex="0">add tab content 11</div>
+                        <div class="tab-pane fade" id="tab-12-pane" role="tabpanel" aria-labelledby="tab-4"12tabindex="0">add tab content 12</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+                    <div class="card bg-transparent text-primary p-4 d-flex flex-column align-items-center justify-content-center border-primary rounded-pill">
+                        <p class="fs-5 text-primary fw-light text-center lh-1 mb-2">Umów sie na</p>
+                        <h1 class="heading-1 fw-light mb-3">wizyte</h1>
+                        <a href="tel:+48 601260 320" class="d-flex gap-2 align-items-center justify-content-center text-decoration-none text-primary fs-5">
+                            <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" viewBox="0 0 20.73 20.72">
+                                <path fill="currentColor" d="M4.97 0.76l2.44 3.71c0.52,0.8 0.49,1.85 -0.09,2.61 -0.74,0.97 -1.72,2.55 -0.75,3.69 1,1.17 3.22,5.13 7.68,2.51 0.76,-0.45 1.71,-0.42 2.43,0.09l3.35 2.38c0.68,0.49 0.9,1.4 0.51,2.14 -0.93,1.8 -3.32,4.38 -8.91,1.63 -7.51,-3.69 -16.01,-14.04 -9.04,-19.2 0.77,-0.56 1.86,-0.36 2.38,0.44z"/>
+                            </svg>
+                            +48 601260 320
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="blue-bg-left-rounded section-padding pb-0 mt-5">
+        <div class="container">
+            <div class="d-flex flex-column gap-5 align-items-center justify-content-center">
+                <div class="d-flex gap-1 align-items-center">
+                    <div class="hero-svg">
+                        <svg class="w-100" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" version="1.1" viewBox="0 0 18.1 21.24">
+                            <path d="M8.83 11.21c3.68,-0.5 7.69,-1.03 9.13,2.26 -1.84,-5.17 -5.06,-6.65 -9.81,-5.79 -4.05,0.73 -6.94,2.42 -8.15,-0.97 1.86,5.24 5.42,4.97 8.83,4.5z"/>
+                            <path d="M11.08 16.66c2.15,-2.02 4.62,-4.42 6.98,-2.76 -3.57,-2.51 -6.36,-1.95 -9.04,0.78 -2.29,2.33 -3.1,4.96 -5.96,2.94 3.61,2.54 6.02,0.9 8.02,-0.96z"/>
+                            <path d="M12 6.64c2.78,0.97 6.06,2.02 5.7,4.88 0.55,-4.32 -1.25,-6.53 -4.92,-7.63 -3.13,-0.93 -5.83,-0.41 -5.38,-3.89 -0.56,4.38 2.01,5.75 4.6,6.64z"/>
+                            <path d="M14.66 18.01c0.7,-1.84 1.47,-4.01 3.38,-3.71 -2.88,-0.45 -4.39,0.7 -5.2,3.13 -0.68,2.08 -0.39,3.89 -2.71,3.53 2.92,0.46 3.89,-1.24 4.53,-2.95z"/>
+                            <path d="M17.27 18.15c-0.15,-1.29 -0.37,-2.78 0.83,-3.19 -1.81,0.62 -2.34,1.75 -2.06,3.41 0.23,1.41 0.95,2.38 -0.5,2.87 1.83,-0.62 1.88,-1.9 1.73,-3.09z"/>
+                            <path d="M14.88 3.59c1.2,0.48 2.61,1.01 2.38,2.26 0.34,-1.88 -0.39,-2.89 -1.98,-3.45 -1.35,-0.48 -2.54,-0.31 -2.27,-1.83 -0.35,1.91 0.75,2.57 1.87,3.02z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="title text-white mb-0">GABINET</p>
+                        <p class="title text-white fw-bold mb-0">GINEKOLOGICZNO</p>
+                        <p class="title text-white fw-bold mb-0">MENDOKRYNOLOGICZNY</p>
+                    </div>
+                </div>
+                <ul class="footer-contact w-100 list-unstyled d-flex flex-column flex-md-row align-items-center justify-content-center gap-5 mb-0">
+                    <li class="d-flex align-items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" viewBox="0 0 20.73 20.72" fill="#fff">
+                            <path d="M4.97 0.76l2.44 3.71c0.52,0.8 0.49,1.85 -0.09,2.61 -0.74,0.97 -1.72,2.55 -0.75,3.69 1,1.17 3.22,5.13 7.68,2.51 0.76,-0.45 1.71,-0.42 2.43,0.09l3.35 2.38c0.68,0.49 0.9,1.4 0.51,2.14 -0.93,1.8 -3.32,4.38 -8.91,1.63 -7.51,-3.69 -16.01,-14.04 -9.04,-19.2 0.77,-0.56 1.86,-0.36 2.38,0.44z"/>
+                        </svg>
+                        <a href="tel:+48 601260 320" class="nav-link text-white">+48 601260 320</a>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" viewBox="0 0 26.65 18.42" fill="#fff">
+                            <path d="M13.33 13.26c-0.97,0 -1.94,-0.37 -2.68,-1.11l-1.43 -1.43 -7.71 7.7 23.63 0 -7.7 -7.7 -1.43 1.43c-0.74,0.74 -1.71,1.11 -2.68,1.11z"/>
+                            <polygon points="0,16.54 7.52,9.02 0,1.51 "/>
+                            <path d="M1.89 0l10.46 10.45c0.54,0.54 1.42,0.54 1.95,0l10.46 -10.45 -22.87 0z"/>
+                            <polygon points="26.65,1.51 19.14,9.02 26.65,16.54 "/>    
+                        </svg>
+                        <a href="mailto:kontakt@ginekolog.com.pl" class="nav-link text-white">kontakt@ginekolog.com.pl</a>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" viewBox="0 0 15.23 20.85" fill="#fff">
+                            <path d="M11.59 7.38c0,2.19 -1.79,3.97 -3.98,3.97 -2.19,0 -3.97,-1.78 -3.97,-3.97 0,-2.19 1.78,-3.97 3.97,-3.97 2.19,0 3.98,1.78 3.98,3.97zm-3.57 -7.37c-2.11,-0.11 -4.12,0.63 -5.65,2.08 -1.53,1.45 -2.37,3.42 -2.37,5.53 0,0.81 0.13,1.61 0.38,2.37l0.04 0.17c1.26,4.71 4.82,8.55 7.2,10.69 2.38,-2.14 5.94,-5.99 7.19,-10.71l0 -0.03 0.05 -0.14c0.24,-0.75 0.37,-1.55 0.37,-2.35 0,-4.06 -3.17,-7.4 -7.21,-7.61z"/>
+                        </svg>
+                        <a href="#" class="nav-link text-white" style="white-space: nowrap;">ul Dominikanska lla Warszawa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-last bg-black mt-5 py-2 py-md-3">
+            <div class="container">
+                <ul class="list-unstyled mb-0 d-flex justify-content-between align-items-center">
+                    <li><span class="text-white">Copyright (c)</span></li>
+                    <li><span class="text-white">Wokonanie: <a href="#" class="text-light text-decoration-none">lemonConcep</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
